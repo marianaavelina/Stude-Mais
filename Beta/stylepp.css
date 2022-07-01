@@ -1,0 +1,76 @@
+
+header {
+    background-image: url('https://cdn.direcaoconcursos.com.br/uploads/2021/04/Webp.net-resizeimage-2.jpg');
+    background-size: cover;
+    background-clip: text;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+  }
+  
+  .menu ul li {
+      background-color: #68e620;
+      color: white;
+      float: left;
+      width: 165px;
+      height: 40px;
+      display: inline-block;
+      text-align: center;
+      line-height: 40px;
+      font-size: 18px;
+      position: relative;
+  }
+  
+  .menu ul li:hover {
+      background-color: #59c91a;
+  }
+  
+  .menu ul{
+      padding: 0;
+  }
+  
+  .menu ul ul{
+      display: none;
+  }
+  
+  .menu ul li:hover > ul {
+      display: block;
+  }
+  
+  .menu ul ul li:hover{
+      background-color: #3a9c03;
+  }
+  
+  .menu a{
+      color: white;
+      text-decoration: none;
+  }
+  
+  footer {
+      color: black;
+      text-align: center;
+      font-style: italic;
+  }
+  
+  main {
+      background-color: bisque;
+      padding: 10px;
+      border-radius: 5px;
+      min-width: 280px;
+      max-width: 900px;
+      margin: auto;
+  } 
+  
+  p.center {
+      text-align: center;
+  }
+  
+  div {
+      font-weight: bold;
+      font-size: 20px;
+      padding-left: 5px;
+  }
+  
+  #sub {
+      font-size: 27px;
+  }
